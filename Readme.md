@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дарья Николаева](https://up.htmlacademy.ru/htmlcss/32/user/142152).
-* Наставник: `[Артур Трифонов](https://htmlacademy.ru/profile/wrgraff)`.
+* Наставник: [Артур Трифонов](https://htmlacademy.ru/profile/wrgraff).
 
 ---
 
