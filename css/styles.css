@@ -18,6 +18,45 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background: #FFFFFF;
+  background: #ffffff;
   color: #333333;
+}
+
+.page-header {
+  color: #FFFFFF;
+}
+
+.advantages-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advantages-number {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.services-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.footer-subscribe {
+  background-image: url(img/catalog-background.png);
+}
+
+.page-main {
+  background-image: url(img/catalog-background.png);
 }
