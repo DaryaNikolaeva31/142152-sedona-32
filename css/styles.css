@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -33,6 +33,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  background: #83B3D3;
 }
 
 .advantages-number {
@@ -54,9 +55,9 @@ body {
 }
 
 .footer-subscribe {
-  background-image: url(img/catalog-background.png);
+  background-image: url("../img/catalog-background.png");
 }
 
 .page-main {
-  background-image: url(img/catalog-background.png);
+  background-image: url("../img/catalog-background.png");
 }
