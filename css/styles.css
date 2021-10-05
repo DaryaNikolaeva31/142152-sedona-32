@@ -18,22 +18,24 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background: #ffffff;
+  background-color: #ffffff;
   color: #333333;
 }
 
 .page-header {
-  color: #FFFFFF;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
+
 .advantages-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  background: #83B3D3;
+  background-color: #83B3D3;
 }
 
 .advantages-number {
@@ -56,8 +58,18 @@ body {
 
 .footer-subscribe {
   background-image: url("../img/catalog-background.png");
+  background-color: #83B3D3;
+  color: #ffffff;
+  background-size: 1200px 411px;
+  background-repeat: no-repeat;
+  position: absolute;
 }
 
-.page-main {
-  background-image: url("../img/catalog-background.png");
+.catalog-filter {
+  background-image: url("../img/index-background.jpeg");
+  background-color: #ffffff;
+  color: #000000;
+  background-size: 1200px 408px;
+  background-repeat: no-repeat;
+  position: absolute;
 }
