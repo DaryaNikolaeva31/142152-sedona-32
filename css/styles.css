@@ -57,7 +57,7 @@ body {
 }
 
 .footer-subscribe {
-  background-image: url("../img/catalog-background.png");
+  background-image: url("../img/index-background.jpeg");
   background-color: #83B3D3;
   color: #ffffff;
   background-size: 1200px 411px;
@@ -66,7 +66,7 @@ body {
 }
 
 .catalog-filter {
-  background-image: url("../img/index-background.jpeg");
+  background-image: url("../img/catalog-background.png");
   background-color: #ffffff;
   color: #000000;
   background-size: 1200px 408px;
