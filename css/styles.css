@@ -37,7 +37,6 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #756257;
-  border-radius: 4px;
 }
 
 .title-description {
@@ -81,17 +80,17 @@ body {
   background-color: #83b3d3;
 }
 
-.advantages-title:only-child(n + 2) {
+.advantages-title:nth-child(n + 3) {
   color: #000000;
   background: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-item:nth-child(n + 2) {
+.advantages-item:nth-child(n + 3) {
   color: #000000;
   background: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-number:nth-child(n + 2) {
+.advantages-number:nth-child(n + 3) {
   color: #000000;
   background: rgba(131, 179, 211, 0.12);
 }
@@ -101,6 +100,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   background-color: #83b3d3;
+  color: #ffffff;
 }
 
 .advantages-description {
@@ -159,7 +159,6 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #756257;
-  border-radius: 10px;
 }
 
 .footer-subscribe {
@@ -189,7 +188,6 @@ body {
   line-height: 26px;
   text-transform: uppercase;
   background-color: #83b3d3;
-  border-radius: 0px 10px 10px 0px;
 }
 
 .page-footer {
@@ -208,6 +206,8 @@ body {
   background-image: url("../img/catalog-background.png");
   background-color: #83b3d3;
   color: #ffffff;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .page-main-title {
@@ -246,7 +246,6 @@ body {
   line-height: 21px;
   text-transform: uppercase;
   background-color: #83b3d3;
-  border-radius: 4px;
 }
 
 .control-reset {
@@ -297,12 +296,10 @@ body {
 
 .product-card-button-brown {
   background-color: #756257;
-  border-radius: 4px;
 }
 
 .product-card-button-blue {
   background-color: #83b3d3;
-  border-radius: 4px;
 }
 
 .rating-text {
@@ -319,7 +316,6 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #83b3d3;
-  border-radius: 4px;
 }
 
 .pagination {
