@@ -222,20 +222,123 @@ body {
 
 .control-title {
   font-weight: 700;
-font-size: 20px;
-line-height: 26px;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 .control-label {
   font-weight: 400;
-font-size: 18px;
-line-height: 23px;
+  font-size: 18px;
+  line-height: 23px;
 }
 
 .money-field {
   font-weight: 400;
-font-size: 18px;
-line-height: 23px;
+  font-size: 18px;
+  line-height: 23px;
 }
 
+.control-submit {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  background-color: #83b3d3;
+  border-radius: 4px;
+}
 
+.control-reset {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.sorting-block {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.sorting-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+.sorting-type {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  background-color: #ffffff;
+}
+
+.product-card-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.miniblock-left.miniblock-right {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.button a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.product-card-button-brown {
+  background-color: #756257;
+  border-radius: 4px;
+}
+
+.product-card-button-blue {
+  background-color: #83b3d3;
+  border-radius: 4px;
+}
+
+.rating-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.pagination-show-more {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #83b3d3;
+  border-radius: 4px;
+}
+
+.pagination {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.pagination-link {
+  background-color: #83b3d3;
+}
+
+.pagination-current {
+  color: #333333;
+  background-color: #f2f2f2;
+}
+
+.quantity-type {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
