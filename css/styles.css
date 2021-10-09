@@ -29,13 +29,17 @@ body {
   color: #000000;
 }
 
-.navigation-button {
+.button {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
+  font-family: inherit;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #756257;
+
+}
+
+.navigation-button {
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .title-description {
@@ -151,13 +155,9 @@ body {
   line-height: 26px;
 }
 
-.button.booking {
-  font-weight: bold;
+.button-booking {
   font-size: 20px;
   line-height: 36px;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #756257;
 }
 
 .footer-subscribe {
@@ -181,12 +181,9 @@ body {
   background-color: #83b3d3;
 }
 
-.button.subscribe-button {
-  font-weight: 700;
+.subscribe-button {
   font-size: 20px;
   line-height: 26px;
-  text-transform: uppercase;
-  background-color: #83b3d3;
 }
 
 .page-footer {
@@ -285,12 +282,8 @@ body {
   line-height: 23px;
 }
 
-.button a {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #ffffff;
+ a {
+
 }
 
 .button-brown {
@@ -299,6 +292,9 @@ body {
 
 .button-blue {
   background-color: #83b3d3;
+}
+.button-success {
+  background-color: #7DB54F;
 }
 
 .rating-text {
