@@ -77,6 +77,7 @@ body {
 
 .services-list {
   background-color: #ffffff;
+  color: #000000;
 }
 
 .services-item:nth-child(odd) {
