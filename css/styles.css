@@ -36,7 +36,6 @@ body {
 
 .main-navigation {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
@@ -48,13 +47,14 @@ body {
 .navigation-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-left: 71px;
   width: 430px;
 }
 
 .navigation-user {
   max-width: 250px;
   margin-left: auto;
+  padding-right: 72px;
 }
 
 .navigation-link {
@@ -63,7 +63,6 @@ body {
 
 .page-container {
   width: 1200px;
-  margin: 0 auto;
 }
 
 .button {
@@ -105,12 +104,17 @@ body {
 
 .advantages {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 1200px;
 }
 
 .advantages-item {
   background-color: rgba(131, 179, 211, 0.12);
   list-style-type: none;
+  width: 400px;
 }
 
 .advantages-item:nth-child(even) {
@@ -119,9 +123,17 @@ body {
 
 .services-list {
   display: flex;
+  width: 1200px;
+  justify-content: space-between;
   background-color: #ffffff;
   color: #000000;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.services-item {
+  width: 400px;
 }
 
 .services-item:nth-child(odd) {
@@ -161,6 +173,8 @@ body {
 
 .booking {
   background-color: #ffffff;
+  display: inline-block;
+  width: 1200px;
 }
 
 .booking-text {
@@ -186,6 +200,7 @@ body {
   background-image: url("../img/catalog-background.png");
   background-color: #83b3d3;
   color: #ffffff;
+  width: 1200px;
 }
 
 .subscribe-title {
@@ -209,10 +224,30 @@ body {
   background-color: #ffffff;
 }
 
+.page-footer-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-social {
+  width: 110px;
+  padding-left: 71px;
+  list-style-type: none;
+}
+
 .contacts-phone {
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
+  width: 720px;
+}
+
+.footer-htmlacademy {
+  width: 115px;
+  padding-right: 72px;
 }
 
 .catalog-filter {
