@@ -35,13 +35,35 @@ body {
 }
 
 .main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
 }
 
+.navigation-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 430px;
+}
+
+.navigation-user {
+  max-width: 250px;
+  margin-left: auto;
+}
+
 .navigation-link {
   color: #000000;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .button {
@@ -74,14 +96,21 @@ body {
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .page-header {
   background-color: #ffffff;
 }
 
+.advantages {
+  display: flex;
+  flex-direction: column;
+}
+
 .advantages-item {
   background-color: rgba(131, 179, 211, 0.12);
+  list-style-type: none;
 }
 
 .advantages-item:nth-child(even) {
@@ -89,8 +118,10 @@ body {
 }
 
 .services-list {
+  display: flex;
   background-color: #ffffff;
   color: #000000;
+  list-style-type: none;
 }
 
 .services-item:nth-child(odd) {
