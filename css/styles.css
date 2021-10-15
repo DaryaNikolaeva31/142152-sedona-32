@@ -22,12 +22,12 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background-color:#ffffff;
+  background-color: #ffffff;
   color: #000000;
 }
 
 .page-container {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -43,7 +43,6 @@ body {
 
 .main-container {
   flex-grow: 1;
-  width: 1200px;
 }
 
 .main-navigation {
@@ -63,6 +62,7 @@ body {
 }
 
 .navigation-user {
+  width: 250px;
   flex-grow: 1;
 }
 
@@ -175,7 +175,7 @@ body {
 .booking {
   background-color: #ffffff;
   display: inline-block;
-  width: 1200px;
+  width: 100%;
 }
 
 .booking-text {
@@ -195,13 +195,6 @@ body {
 .button-booking {
   font-size: 20px;
   line-height: 36px;
-}
-
-.footer-subscribe {
-  background-image: url("../img/catalog-background.png");
-  background-color: #83b3d3;
-  color: #ffffff;
-  width: 1200px;
 }
 
 .subscribe-title {
@@ -227,21 +220,30 @@ body {
   flex-wrap: wrap;
 }
 
+.footer-subscribe {
+  background-image: url("../img/catalog-background.png");
+  background-color: #83b3d3;
+  color: #ffffff;
+  width: 100%;
+}
+
 .footer-social {
   width: 210px;
-  list-style-type: none;
   padding-left: 72px;
   flex-grow: 1;
+}
+
+.footer-social-list {
+  list-style-type: none;
 }
 
 .contacts-phone {
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
-  width: 720px;
 }
 
-.footer-htmlacademy {
+.footer-developer {
   width: 210px;
   padding-right: 72px;
   flex-grow: 1;
@@ -255,10 +257,20 @@ body {
   background-repeat: no-repeat;
 }
 
+.page-main-header {
+  display: flex;
+  flex-direction: column;
+  margin-left: 72px;
+}
+
 .page-main-title {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+}
+
+.breadcrumbs {
+  margin-right: auto;
 }
 
 .breadcrumbs-link {
@@ -266,10 +278,36 @@ body {
   line-height: 21px;
 }
 
+.catalog-products {
+  width: 100%;
+}
+
+.catalog-products-container {
+  display: flex;
+}
+
 .control-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+}
+
+.control-title-checkbox {
+  width: 180px;
+  margin-left: 72px;
+}
+
+.control-title-radio {
+  width: 340px;
+}
+
+.control-title-price {
+  width: 280px;
+}
+
+.conrol-title-buttons {
+  width: 230px;
+  margin-right: 72px;
 }
 
 .control-label {
@@ -298,22 +336,42 @@ body {
   background-color: #ffffff;
 }
 
+.sorting-container {
+  display: flex;
+}
+
 .sorting-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 39px;
   text-transform: uppercase;
   background-color: #ffffff;
+  width: 525px;
 }
 
 .sorting-type {
   font-size: 18px;
   line-height: 23px;
   background-color: #ffffff;
+  width: 285px;
 }
 
 .select-control {
   color: #333333;
+}
+
+.catalog-buttons {
+  list-style-type: none;
+  width: 160px;
+  margin-left: auto;
+  margin-right: 72px;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .product-card-title {
@@ -366,6 +424,15 @@ a {
   color: #ffffff;
 }
 
+.pagination-container {
+  display: flex;
+}
+
+.pagination-list {
+  list-style-type: none;
+  display: flex;
+}
+
 .pagination-link {
   background-color: #83b3d3;
   color: #ffffff;
@@ -373,12 +440,15 @@ a {
 
 .pagination-current {
   background-color: #f2f2f2;
+  color: #000000;
 }
 
 .quantity-type {
   font-size: 18px;
   line-height: 23px;
   color: #333333;
+  width: 400px;
+  margin-left: auto;
 }
 
 .visually-hidden {
@@ -391,4 +461,3 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
