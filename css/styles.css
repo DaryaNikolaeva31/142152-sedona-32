@@ -260,7 +260,8 @@ body {
 .page-main-header {
   display: flex;
   flex-direction: column;
-  margin-left: 72px;
+  padding-left: 72px;
+  padding-right: 72px;
 }
 
 .page-main-title {
@@ -282,7 +283,7 @@ body {
   width: 100%;
 }
 
-.catalog-products-container {
+.catalog-filter-form {
   display: flex;
 }
 
@@ -294,20 +295,21 @@ body {
 
 .control-title-checkbox {
   width: 180px;
-  margin-left: 72px;
+  padding-left: 72px;
 }
 
 .control-title-radio {
-  width: 340px;
+  width: 350px;
 }
 
 .control-title-price {
-  width: 280px;
+  width: 285px;
 }
 
 .conrol-title-buttons {
-  width: 230px;
-  margin-right: 72px;
+  width: 160px;
+  padding-right: 72px;
+  padding-left: 80px;
 }
 
 .control-label {
@@ -364,7 +366,7 @@ body {
   list-style-type: none;
   width: 160px;
   margin-left: auto;
-  margin-right: 72px;
+  padding-right: 72px;
 }
 
 .product-list {
