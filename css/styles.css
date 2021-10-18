@@ -271,7 +271,7 @@ body {
 }
 
 .breadcrumbs {
-  margin-right: auto;
+  justify-content: flex-start;
 }
 
 .breadcrumbs-link {
@@ -285,6 +285,7 @@ body {
 
 .catalog-filter-form {
   display: flex;
+  justify-content: space-between;
 }
 
 .control-title {
@@ -293,23 +294,18 @@ body {
   line-height: 26px;
 }
 
-.control-title-checkbox {
+.control-group-checkbox {
   width: 180px;
   padding-left: 72px;
 }
 
-.control-title-radio {
-  width: 350px;
-}
-
-.control-title-price {
+.control-group-price {
   width: 285px;
 }
 
-.conrol-title-buttons {
+.control-group-buttons {
   width: 160px;
   padding-right: 72px;
-  padding-left: 80px;
 }
 
 .control-label {
