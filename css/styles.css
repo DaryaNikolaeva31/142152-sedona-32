@@ -270,10 +270,6 @@ body {
   line-height: 78px;
 }
 
-.breadcrumbs {
-  justify-content: flex-start;
-}
-
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
@@ -285,7 +281,7 @@ body {
 
 .catalog-filter-form {
   display: flex;
-  justify-content: space-between;
+  padding-left: 72px;
 }
 
 .control-title {
@@ -294,9 +290,9 @@ body {
   line-height: 26px;
 }
 
-.control-group-checkbox {
-  width: 180px;
-  padding-left: 72px;
+.control-group {
+  width: 210px;
+  padding-right: 40px;
 }
 
 .control-group-price {
@@ -306,6 +302,12 @@ body {
 .control-group-buttons {
   width: 160px;
   padding-right: 72px;
+  padding-left: 80px;
+}
+
+.catalog-filter-list {
+  margin: 0;
+  padding-left: 20px;
 }
 
 .control-label {
