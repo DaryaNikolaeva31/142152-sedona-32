@@ -24,6 +24,7 @@ body {
   line-height: 21px;
   background-color: #f2f2f2;
   color: #000000;
+  margin: 0;
 }
 
 .page-container {
@@ -81,8 +82,8 @@ body {
   min-height: 8px;
 }
 
-.logo {
-  margin-bottom: -5.05px;
+.page-header-logo {
+  margin-bottom: -12px;
 }
 
 .button {
@@ -166,6 +167,10 @@ body {
   width: 66.666%;
 }
 
+.pic {
+  display: block;
+}
+
 .services-list {
   display: flex;
   flex-wrap: wrap;
@@ -189,15 +194,15 @@ body {
 .services-title {
   text-transform: uppercase;
   margin: 0;
-  margin-top: 23px;
-  margin-bottom: 20px;
-  margin-left: 75px;
-  margin-right: 75px;
+  padding-top: 23px;
+  padding-bottom: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .services-description {
   color: #333333;
-  margin-top: 0;
+  margin: 0;
   margin-bottom: 79px;
   margin-left: 75px;
   margin-right: 75px;
@@ -275,15 +280,16 @@ body {
 }
 
 .button-booking {
+  display: block;
   font-size: 20px;
   line-height: 36px;
-  height: 60px;
   text-align: center;
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-top: 13px;
-  padding-bottom: 17px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   margin: 0;
+  margin-left: 70px;
   width: 575px;
   border-radius: 10px;
 }
@@ -329,7 +335,7 @@ body {
   line-height: 26px;
   margin: 0;
   padding: 0;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0 10px 10px 0;
 }
 
 .page-footer {
@@ -508,14 +514,15 @@ body {
   display: block;
   font-size: 18px;
   line-height: 23px;
-  width: 100px;
-  height: 23px;
+  width: 160px;
   margin: 0;
   color: #ffffff;
   margin-top: 20px;
   background-color:inherit;
   text-align: center;
   padding: 0;
+  padding-top: 4px;
+  padding-bottom: 5px;
 }
 
 .sorting-block {
@@ -589,13 +596,14 @@ body {
 }
 
 .button-cards {
+  display: block;
   width: 48px;
   height: 48px;
   border: 2px solid #e6e6e6;
   border-radius: 4px;
 }
 
-.button-cards:not(:last-child) {
+.catalog-buttons-item:not(:last-child) {
   margin-right: 8px;
 }
 
