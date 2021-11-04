@@ -96,9 +96,10 @@ body {
   color: #ffffff;
   border-radius: 4px;
   text-align: center;
-  padding:0;
+  padding-right: 14px;
   padding-top: 9px;
   padding-bottom: 10px;
+  padding-left: 14px;
 }
 
 .navigation-button {
@@ -624,13 +625,14 @@ body {
 .product-card {
   display: grid;
   grid-template-columns: 217px 160px 160px 520px;
-  grid-template-rows: 29px 55px 37px;
+  grid-template-rows: min-content 1fr min-content;
   grid-template-areas:
   "product-image product-title product-title rating-stars"
   "product-image miniblock-left miniblock-right rating-stars"
   "product-image button-showmore button rating-text";
   padding-top: 30px;
   padding-bottom: 30px;
+  row-gap: 4px;
 }
 
 .product-card-image-link {
@@ -669,7 +671,7 @@ body {
   margin: 0;
 }
 
-.rating-button {
+.rating-field {
   display: inline-block;
   background-color: #F2F2F2;
   border-radius: 4px;
