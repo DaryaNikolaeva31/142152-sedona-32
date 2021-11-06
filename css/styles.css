@@ -534,8 +534,8 @@ body {
 }
 
 .home-icon {
-  width: 28px;
-  height: 28px;
+  width: 12px;
+  height: 12px;
   background-image: url("img/nav-link.svg");
   background-repeat: no-repeat;
   background-size: auto;
