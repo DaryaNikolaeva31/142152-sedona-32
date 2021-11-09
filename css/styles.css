@@ -433,7 +433,7 @@ body {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .subscribe-description {
@@ -441,7 +441,7 @@ body {
   line-height: 26px;
   padding: 0;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 
 .subscribe-form {
@@ -477,7 +477,7 @@ body {
   outline: 2px solid #000000;
 }
 
-.field:disabled {
+.field:invalid {
   background-color: #ffffff;
   outline: 2px solid #ff5757;
 }
@@ -537,7 +537,6 @@ body {
   color: #000000;
   width: 100%;
   margin: 0;
-  padding-top: 94px;
   padding-bottom: 94px;
   padding-right: 200px;
   padding-left: 200px;
@@ -719,6 +718,20 @@ body {
   color: inherit;
 }
 
+.breadcrumbs-link:hover {
+  opacity: 0.6;
+}
+
+.breadcrumbs-link:focus {
+  border: 3px solid #83b3d3;
+  border-radius: 4px;
+}
+
+.breadcrumbs-link:active {
+  border: 3px solid #83b3d3;
+  opacity: 0.3;
+}
+
 .catalog-products {
   width: 100%;
 }
@@ -781,6 +794,20 @@ body {
   border-radius: 4px;
 }
 
+.control-submit:hover {
+  background-color: #68A2CA;
+}
+
+.control-submit:focus {
+  background-color: #68A2CA;
+  outline: 3px solid #FFFFFF;
+}
+
+.control-submit:active {
+  background-color: #68A2CA;
+  opacity: 0.3;
+}
+
 .control-reset {
   display: block;
   font-size: 18px;
@@ -794,6 +821,20 @@ body {
   padding: 0;
   padding-top: 4px;
   padding-bottom: 5px;
+  outline: none;
+}
+
+.control-reset:hover {
+  opacity: 0.6;
+}
+
+.control-reset:focus {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.control-reset:active {
+  opacity: 0.3;
 }
 
 .sorting-block {
@@ -910,6 +951,11 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   row-gap: 4px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.product-card:last-child {
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .product-card-image-link {
@@ -1041,9 +1087,16 @@ a {
   margin: 0;
   margin-left: 290px;
   margin-top: 30px;
+  padding-left: 240px;
+  padding-right: 240px;
   margin-bottom: 30px;
-  padding: 20px 240px;
   width: 625px;
+}
+
+.show-more-container {
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: 72px;
+  margin-right: 72px;
 }
 
 .pagination {
@@ -1095,7 +1148,6 @@ a {
   width: 400px;
   height: 48px;
   margin-left: auto;
-  margin-right: 72px;
   text-align: center;
   text-decoration: none;
   font-weight: 400;
