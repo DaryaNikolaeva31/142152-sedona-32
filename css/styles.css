@@ -745,16 +745,90 @@ body {
   font-size: 20px;
   line-height: 26px;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
 }
 
 .control-group {
   width: 210px;
   margin-right: 40px;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 .control-group-price {
   width: 285px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.money-field {
+  width: 143px;
+}
+
+.range {
+  margin-top: 32px;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background-color: #ffffff;
+  width: 287px;
+}
+
+.range-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4px;
+}
+
+.range-toggle {
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:focus {
+  outline: 3px solid #83B3D3;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:active {
+  outline: 2px solid #83B3D3;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.4);
+
+}
+
+.toggle-min {
+  top: -8px;
+  left: 0;
+  border: none;
+}
+
+.toggle-max {
+  top: -8px;
+  right: 40px;
+  border: none;
+}
+
+.range-wrapper-inputs {
+  display: flex;
+}
+
+.catalog-filter-label {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .control-group-buttons {
@@ -765,11 +839,16 @@ body {
 
 .catalog-filter-list {
   margin: 0;
-  padding-left: 20px;
+  padding: 0;
+  list-style-type: none;
 }
 
 .catalog-filter-item:not(:last-child) {
   margin-bottom: 13px;
+}
+
+.control {
+  position: relative;
 }
 
 .control-label {
@@ -777,11 +856,67 @@ body {
   line-height: 23px;
   margin: 0;
   padding: 0;
+  padding-left: 39px;
+}
+
+.control-input[type="checkbox"] + .control-label::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.control-input[type="checkbox"]:checked + .control-label::before {
+  background-image: url("../img/check.svg");
+  background-repeat: no-repeat;
+  background-position: 4px 4px;
+}
+
+.control-input[type="radio"] + .control-label::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-label::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #3F5E72;
+  border-radius: 50%;
 }
 
 .money-field {
   font-size: 18px;
   line-height: 23px;
+  width: 144px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 19px;
+  font: inherit;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  appearance: textfied;
+}
+
+.money-field::-webkit-outer-spin-buttn,
+.money-field::-webkit-inner-spin-butto {
+  appearance: none;
+  margin: 0;
 }
 
 .control-submit {
@@ -1043,8 +1178,6 @@ body {
   font-size: 24px;
   line-height: 31px;
   margin: 0;
-  margin-left: 15px;
-  padding-right: 15px;
   width: max-content;
 }
 

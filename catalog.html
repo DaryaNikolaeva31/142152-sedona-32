@@ -79,8 +79,8 @@
         <section class="catalog-products">
           <h2 class="visually-hidden">Фильтры для выбора гостиницы</h2>
           <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
-            <div class="control-group">
-              <h3 class="control-title">Инфраструктура:</h3>
+            <fieldset class="control-group">
+              <legend class="control-title">Инфраструктура:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
@@ -101,9 +101,9 @@
                   </label>
                 </li>
               </ul>
-            </div>
-            <div class="control-group">
-              <h3 class="control-title">Тип жилья:</h3>
+            </fieldset>
+            <fieldset class="control-group">
+              <legend class="control-title">Тип жилья:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
@@ -125,16 +125,29 @@
                   </label>
                 </li>
               </ul>
-            </div>
-            <div class="control-group-price">
-              <h3 class="control-title">Стоимость, ₽:</h3>
-              <label> от
-                <input class="money-field" type="text" placeholder="0">
-              </label>
-              <label> до
-                <input class="money-field" type="text" placeholder="9000">
-              </label>
-            </div>
+            </fieldset>
+            <fieldset class="control-group-price">
+              <legend class="control-title">Стоимость, ₽:</legend>
+              <div class="range-wrapper-inputs">
+                <label class="catalog-filter-label"> от
+                  <input class="money-field" type="text" placeholder="0" name="min-price">
+                </label>
+                <label class="catalog-filter-label"> до
+                  <input class="money-field" type="text" placeholder="9000" name="max-price">
+                </label>
+              </div>
+              <div class="range">
+                <div class="range-scale">
+                  <div class="range-bar" style="margin-right: 60px; width: 227px;">
+                    <button class="range-toggle toggle-min">
+                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                    </button>
+                    <button class="range-toggle toggle-max">
+                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                    </button>
+                  </div>
+                </div>
+            </fieldset>
             <div class="control-group-buttons">
               <button class="control-submit button button-blue" type="submit">Применить</button>
               <button class="control-reset" type="reset">Сбросить</button>
