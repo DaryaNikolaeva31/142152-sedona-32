@@ -821,7 +821,8 @@ body {
   padding: 0;
   padding-top: 4px;
   padding-bottom: 5px;
-  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .control-reset:hover {
@@ -868,6 +869,22 @@ body {
   width: 300px;
   height: 48px;
   margin-right: auto;
+  cursor: pointer;
+}
+
+.sorting-type:hover {
+  outline: 2px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.sorting-type:focus {
+  outline: 2px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.sorting-type:active {
+  outline: 2px solid #E6E6E6;;
+  border-radius: 4px;
 }
 
 .select-control {
@@ -885,13 +902,14 @@ body {
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 19px;
-  padding-right: 127px;
+  padding-right: 105px;
   margin: 0;
   width: 100%;
   appearance: none;
   background-image: url("../img/arrow.svg");
   background-repeat: no-repeat;
   background-position: 90% 20px;
+  cursor: pointer;
 }
 
 .select-quantity {
@@ -902,6 +920,18 @@ body {
   background-image: url("../img/arrow.svg");
   background-repeat: no-repeat;
   background-position: 80% 19px;
+}
+
+.select-quantity:hover{
+  outline: 2px solid #83B3D3;
+}
+
+.select-quantity:focus{
+  outline: 2px solid #83B3D3;
+}
+
+.select-quantity:active{
+  opacity: 0.3;
 }
 
 .catalog-buttons {
@@ -917,6 +947,21 @@ body {
   width: 48px;
   height: 48px;
   border: 2px solid #e6e6e6;
+  border-radius: 4px;
+}
+
+.button-cards:hover {
+  outline: 2px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.button-cards:focus {
+  outline: 2px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.button-cards:active {
+  outline: 2px solid #000000;
   border-radius: 4px;
 }
 
@@ -963,14 +1008,44 @@ body {
   margin-right: 37px;
 }
 
+.product-card-image:hover {
+  opacity: 0.6;
+}
+
+.product-card-image:focus {
+  outline: 3px solid #83B3D3;
+}
+
+.product-card-image:active {
+  opacity: 0.3;
+}
+
 .product-card-title-link {
   grid-area: product-title;
+}
+
+.product-card-title:hover {
+  color: #756257;
+}
+
+.product-card-title:focus {
+  color: #756257;
+  outline: 3px solid #83B3D3;
+  border-radius: 10px;
+}
+
+.product-card-title:active {
+  color: #756257;
+  opacity: 0.3;
 }
 
 .product-card-title {
   font-size: 24px;
   line-height: 31px;
   margin: 0;
+  margin-left: 15px;
+  padding-right: 15px;
+  width: max-content;
 }
 
 .product-card-button {
@@ -979,6 +1054,20 @@ body {
 
 .button-showmore {
   grid-area: button-showmore;
+}
+
+.button-showmore:hover {
+  background-color: #615048;
+}
+
+.button-showmore:focus {
+  background-color: #615048;
+  outline: 3px solid #83B3D3;
+}
+
+.button-showmore:active {
+  background-color: #615048;
+  opacity: 0.3;
 }
 
 .rating-stars {
@@ -993,6 +1082,8 @@ body {
   height: 18px;
   margin-left: auto;
   margin-right: 40px;
+  margin-top: 4px;
+  padding: 0;
 }
 
 .rating-three-star {
@@ -1071,10 +1162,40 @@ a {
   line-height: 21px;
 }
 
+.button-blue:hover {
+  background-color: #68A2CA;
+  outline: 1px solid #756257;
+}
+
+.button-blue:focus {
+  background-color: #68A2CA;
+  outline: 3px solid #756257;
+}
+
+.button-blue:active {
+  background-color: #68A2CA;
+  outline: 1px solid #756257;
+  opacity: 0.3;
+}
+
 .button-success {
   background-color: #7db54f;
   font-size: 16px;
   line-height: 21px;
+}
+
+.button-success:hover {
+  background-color: #6C9E42;
+}
+
+.button-success:focus {
+  background-color: #6C9E42;
+  outline: 3px solid #756257;
+}
+
+.button-success:active {
+  background-color: #6C9E42;
+  opacity: 0.3;
 }
 
 .pagination-show-more {
@@ -1091,6 +1212,21 @@ a {
   padding-right: 240px;
   margin-bottom: 30px;
   width: 625px;
+}
+
+.pagination-show-more:hover {
+  background-color: #68A2CA;
+  outline: none;
+}
+
+.pagination-show-more:focus {
+  background-color: #68A2CA;
+  outline: 3px solid #756257;
+}
+
+.pagination-show-more:active {
+  background-color: #68A2CA;
+  opacity: 0.3;
 }
 
 .show-more-container {
@@ -1133,6 +1269,20 @@ a {
   text-align: center;
   padding: 15px;
   border-radius: 4px;
+}
+
+.pagination-link:hover {
+  background-color: #68A2CA;
+}
+
+.pagination-link:focus {
+  background-color: #68A2CA;
+  outline: 3px solid #756257;
+}
+
+.pagination-link:active {
+  background-color: #68A2CA;
+  opacity: 0.3;
 }
 
 .pagination-current {
