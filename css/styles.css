@@ -523,6 +523,12 @@ body {
   color: #83b3d3;
 }
 
+.footer-social-link {
+  display: block;
+  padding: 13px;
+  color: #83B3D3;
+}
+
 .footer-social-link:hover {
   color: #68a2ca;
 }
@@ -578,11 +584,6 @@ body {
   justify-content: center;
   width: 40px;
   height: 40px;
-}
-
-.footer-social-link {
-  display: block;
-  padding: 13px;
 }
 
 .footer-social-item:not(:last-child) {
@@ -650,7 +651,10 @@ body {
 
 .footer-developer-img {
   display: block;
-  fill: #000000;
+}
+
+.footer-developer-link {
+  color: #000000;
 }
 
 .footer-developer-link:hover {
@@ -1007,20 +1011,6 @@ body {
   border-radius: 4px;
 }
 
-.sorting-type:hover {
-  border: 2px solid #83b3d3;
-}
-
-.sorting-type:focus {
-  border: 2px solid #83b3d3;
-  outline: none;
-}
-
-.sorting-type:active {
-  border: 2px solid #e6e6e6;
-  outline: none;
-}
-
 .select-control {
   color: #333333;
   margin: 0;
@@ -1044,6 +1034,7 @@ body {
   background-repeat: no-repeat;
   background-position: 90% 20px;
   cursor: pointer;
+  border: none;
 }
 
 .select-quantity {
@@ -1056,17 +1047,17 @@ body {
   background-position: 80% 19px;
 }
 
-.select-quantity:hover {
+.select-control:hover {
   border: 2px solid #83b3d3;
   outline: none;
 }
 
-.select-quantity:focus {
+.select-control:focus {
   border: 2px solid #83b3d3;
   outline: none;
 }
 
-.select-quantity:active {
+.select-control:active {
   opacity: 0.3;
 }
 
@@ -1086,9 +1077,14 @@ body {
   border-radius: 4px;
 }
 
+.button-current {
+  border-color: #000000;
+}
+
 .button-cards:hover {
   outline: 2px solid #83b3d3;
   outline-offset: -1px;
+  border: none;
 }
 
 .button-cards:focus {
@@ -1099,10 +1095,6 @@ body {
 .button-cards:active {
   outline: 2px solid #000000;
   outline-offset: -1px;
-}
-
-.button-current {
-  border-color: #000000;
 }
 
 .catalog-buttons-item:not(:last-child) {
@@ -1547,6 +1539,10 @@ a {
   place-content: center;
   width: 400px;
   height: 60px;
+  border-radius: 0 0 20px 20px;
+}
+
+.button-favourites:focus {
   border-radius: 0 0 20px 20px;
 }
 
