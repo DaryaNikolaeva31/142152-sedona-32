@@ -1589,14 +1589,17 @@ a {
   border: none;
   cursor: pointer;
   background-color: #ffffff;
+  opacity: 0.2;
+  width: 36px;
+  height: 36px;
 }
 
 .cart-item-button:hover {
-  color: #000000;
+  opacity: 1;
 }
 
 .cart-item-button:focus {
-  color: #000000;
+  opacity: 1;
   outline: 3px solid #83B3D3;
   border-radius: 10px;
 }
