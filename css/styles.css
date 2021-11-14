@@ -1681,3 +1681,124 @@ a {
   color: #000000;
   text-transform: uppercase;
 }
+
+.form-label {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.booking-form {
+  display: grid;
+}
+
+.field-group {
+  display: grid;
+  grid-template-columns: 155px 133px 155px 133px;
+  row-gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.field-arrival-date {
+  grid-column: 2 / 5;
+  font-weight: 700;
+  line-height: 40px;
+  padding-left: 19px;
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  background-image: url(../img/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: 390px 15px;
+}
+
+.field-depature-date {
+  grid-column: 2 / 5;
+  font-weight: 700;
+  line-height: 40px;
+  padding-left: 19px;
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  background-image: url(../img/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: 390px 15px;
+}
+
+.invalid-date-text {
+  font-size: 16px;
+  line-height: 40px;
+  margin: 0;
+  margin-top: -10px;
+  margin-left: 155px;
+  padding: 0;
+  color: #FF5757;
+}
+
+
+.valid-date-text {
+  font-size: 16px;
+  line-height: 40px;
+  margin: 0;
+  margin-top: -10px;
+  margin-left: 155px;
+  padding: 0;
+  color: #333333;;
+}
+
+.search-button {
+  background-color: #83B3D3;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.minus-people {
+  width: 45px;
+  border: none;
+}
+
+.plus-people {
+  width: 45px;
+  border: none;
+}
+
+.field-kids::-webkit-outer-spin-buttn,
+.field-kids::-webkit-inner-spin-butto {
+  appearance: none;
+  margin: 0;
+}
+
+.field-adults::-webkit-outer-spin-buttn,
+.field-adults::-webkit-inner-spin-butto {
+  appearance: none;
+  margin: 0;
+}
+
+.field-adults {
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+.field-kids {
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+.form-label-kids::after {
+  content: "";
+  background-image: url("../img/info.svg");
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-color: #83B3D3;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+
+
