@@ -846,7 +846,7 @@ body {
 
 .money-field-min {
   border-radius: 4px 0 0 4px;
-  border-right: 0;
+  margin-right: -2px;
 }
 
 .money-field-max {
@@ -1507,7 +1507,7 @@ a {
   border: 1px solid #e6e6e6;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
-  /*display: none;*/
+  display: none;
 }
 
 .popup-open {
@@ -1633,6 +1633,7 @@ a {
 }
 
 .modal-container {
+  z-index: 10;
   position: fixed;
   top: 0;
   left: 0;
@@ -1677,7 +1678,6 @@ a {
 .modal-title {
   margin: 0;
   margin-bottom: 40px;
-  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
@@ -1756,21 +1756,26 @@ a {
   font-weight: 700;
   font-size: 20px;
   line-height: 40px;
+  grid-column: 1 / 5;;
 }
 
 .minus-people {
   width: 45px;
+  height: 50px;
   border: none;
+  display: grid;
+  place-content: center;
 }
 
 .plus-people {
   width: 45px;
   border: none;
+  height: 50px;
 }
 
 .field-kids::-webkit-outer-spin-buttn,
 .field-kids::-webkit-inner-spin-butto {
-  appearance: none;
+  appearance: textfield;
   margin: 0;
 }
 
@@ -1781,27 +1786,69 @@ a {
 }
 
 .field-adults {
+  position: relative;
   border: none;
   background-color: #F2F2F2;
   border-radius: 4px;
+  text-align: center;
+  width: 43px;
 }
 
 .field-kids {
   border: none;
   background-color: #F2F2F2;
   border-radius: 4px;
+  text-align: center;
+  width: 43px;
 }
 
-.form-label-kids::after {
-  content: "";
-  background-image: url("../img/info.svg");
-  background-repeat: no-repeat;
+.info-kids{
   border-radius: 50%;
   background-color: #83B3D3;
   display: block;
   width: 25px;
   height: 25px;
+  border: none;
 }
 
+.form-label-kids {
+  grid-column: 3 / 4;
+}
+.quantity-children {
+  position: relative;
+}
+
+.info-kids {
+  position: absolute;
+  top: 350px;
+  left: 180px;
+  background-image: url("../img/info.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.quantity-people-adults {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 45px 1fr 45px;
+  width: 133px;
+}
+
+.quantity-people-kids {
+  grid-column: 4 / 5;
+  display: grid;
+  grid-template-columns: 45px 1fr 45px;
+  width: 133px;
+  height: 50px;
+}
+
+.info-kids-text {
+  margin: 0;
+  padding: 0;
+}
+
+.form-label-adults {
+  grid-column: 1 / 2;
+}
 
 
