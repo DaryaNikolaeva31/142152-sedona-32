@@ -252,69 +252,69 @@
       <button class="modal-close-button">
         <span class="visually-hidden">Закрыть</span>
       </button>
-      <section class="modal-content">
-        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-      </section>
+      <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
       <form class="booking-form" action="https://echo.htmlacademy.ru/" method="post">
-        <div class="field-group form-date-arrival">
+        <div class="field-group">
           <label class="form-label" for="arrival-date">
             Дата заезда:
           </label>
-          <input class="field-arrival-date" type="text" id="arrival-date" name="arrival-date" placeholder="01.01.2020"
-            value="27 апреля 2020">
+          <input class="field-date field-arrival-date" type="text" id="arrival-date" name="arrival-date"
+            placeholder="Укажите дату" value="27 апреля 2020">
+          <p class="date-text invalid-date-text">Мы не можем отправить вас в прошлое.</p>
         </div>
-        <p class="invalid-date-text">Мы не можем отправить вас в прошлое.</p>
-
-        <div class="field-group form-date-depature">
+        <div class="field-group">
           <label class="form-label" for="depature-date">
             Дата выезда:
           </label>
-          <input class="field-depature-date" type="text" id="depature-date" name="depature-date"
-            placeholder="01.01.2020" value="1 сентября 2021">
+          <input class="field-date field-depature-date" type="text" id="depature-date" name="depature-date"
+            placeholder="Укажите дату" value="1 сентября 2021">
+          <p class="date-text">На эти даты есть свободные номера. Пока есть.</p>
         </div>
-        <p class="valid-date-text">На эти даты есть свободные номера. Пока есть.</p>
-
         <div class="field-group quantity-people">
           <label class="form-label form-label-adults" for="quantity-adults">
             Взрослые:
           </label>
           <div class="quantity-people-adults">
             <button class="minus-people" type="button">
-              <svg aria-hidden="true" focusable="false" width="13" height="1" viewBox="0 0 13 1" fill="none">
+              <svg class="minus-icon" aria-hidden="true" focusable="false" width="13" height="1" viewBox="0 0 13 1"
+                fill="none">
                 <path opacity=".3" d="M0 0v1h13V0H0Z" fill="#000" />
               </svg>
             </button>
-            <input class="field-adults" type="number" id="quantity-adults" name="quantity-adults" value="2">
+            <input class="field-people field-adults" type="number" id="quantity-adults" name="quantity-adults"
+              value="2">
             <button class="plus-people" type="button">
               <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
+                <path opacity=".3" d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
               </svg>
             </button>
           </div>
         </div>
-
-        <div class="field-group quantity-people quantity-children">
-          <label class="form-label form-label-kids" for="quantity-kids">
-            Дети:
-          </label>
-          <button class="info-kids" type="button">
-            <span class="visually-hidden">Посмотреть дополнительную информацию</span></button>
-          </span>
+        <div class="field-group quantity-people">
+          <div class="form-label form-label-kids">
+            <label for="quantity-kids">Дети:</label>
+            <div class="tooltip-container">
+              <button class="info-kids" type="button">
+                <span class="visually-hidden">Посмотреть дополнительную информацию</span></button>
+              <p class="info-kids-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет.
+                Дети до 6 лет размещаются бесплатно.</p>
+            </div>
+          </div>
           <div class="quantity-people-kids">
-            <button class="minus-people minus-kid" type="button">
+            <button class="minus-people" type="button">
               <svg aria-hidden="true" focusable="false" width="13" height="1" viewBox="0 0 13 1" fill="none">
                 <path opacity=".3" d="M0 0v1h13V0H0Z" fill="#000" />
               </svg>
             </button>
-            <input class="field-kids" type="number" id="quantity-kids" name="quantity-hildren" value="1">
+            <input class="field-people" type="number" id="quantity-kids" name="quantity-hildren" value="1">
             <button class="plus-people" type="button">
               <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
+                <path opacity=".3" d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
               </svg>
             </button>
-            <p class="info-kids-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
           </div>
-          <button class="button blue-button search-button" type="submit">Найти</button>
+        </div>
+        <button class="button blue-button search-button" type="submit">Найти</button>
       </form>
     </div>
   </div>
