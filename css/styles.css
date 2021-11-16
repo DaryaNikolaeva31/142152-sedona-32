@@ -1793,31 +1793,52 @@ a {
   height: 50px;
   border-radius: 4px 0 0 4px;
   border: none;
+  outline: none;
   display: grid;
   place-content: center;
   cursor: pointer;
 }
 
-.minus-icon {
-  width: 13px;
-  height: 1px;
-}
-
-.minus-icon:hover {
-  color: #000000;
+.minus-people:hover .quantity-icon {
   opacity: 1;
 }
 
-.minus-icon:focus {
-  color: #000000;
-  opacity: 1;
+.minus-people:focus .quantity-icon {
   outline: 3px solid #83B3D3;
+  outline-offset: 3px;
   border-radius: 1px;
+  opacity: 1;
+}
+
+.minus-people:active .quantity-icon {
+  opacity: 0.2;
+}
+
+.quantity-icon {
+  width: 13px;
+  height: 13px;
+  opacity: 0.3;
+}
+
+.plus-people:hover .quantity-icon {
+  opacity: 1;
+}
+
+.plus-people:focus .quantity-icon {
+  outline: 3px solid #83B3D3;
+  outline-offset: 3px;
+  border-radius: 1px;
+  opacity: 1;
+}
+
+.plus-people:active .quantity-icon {
+  opacity: 0.2;
 }
 
 .plus-people {
   width: 45px;
   border: none;
+  outline: none;
   height: 50px;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
@@ -1827,6 +1848,7 @@ a {
   appearance: textfield;
   margin: 0;
   cursor: pointer;
+  outline: none;
 }
 
 .field-people::-webkit-outer-spin-button,
