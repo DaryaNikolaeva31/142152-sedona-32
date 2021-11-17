@@ -116,7 +116,7 @@
     </header>
     <main class="main-container page-main">
       <div class="main-screen-picture">
-        <img src="img/welcome.svg">
+        <img src="img/welcome.svg" width="458" height="352" alt="Welcome">
       </div>
       <h1 class="visually-hidden">Сервис по подбору гостиницы в Седоне</h1>
       <p class="title-description">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
@@ -128,7 +128,7 @@
             <div class="advantages-textblock">
               <h3 class="advantages-title">Настоящий<br> городок</h3>
               <p class="advantages-number">— №1 —</p>
-              <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              <p class="advantages-description">Седона — не аттракцион<br> для туристов, там течёт<br> своя жизнь</p>
             </div>
             <div class="advantages-picture">
               <img class="pic" src="img/advantages-1.jpeg" width="800" height="384" alt="Городок">
@@ -136,15 +136,16 @@
             <ul class="services-list">
               <li class="services-item services-item-house">
                 <h4 class="services-title">Жильё</h4>
-                <p class="services-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                <p class="services-description">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
               </li>
               <li class="services-item services-item-food">
                 <h4 class="services-title">Еда</h4>
-                <p class="services-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+                <p class="services-description">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не
+                  разочаруетесь!</p>
               </li>
               <li class="services-item services-item-souvenirs">
                 <h4 class="services-title">Сувениры</h4>
-                <p class="services-description">Не только китайского, но и настоящего местного производства!</p>
+                <p class="services-description">Не только китайского,<br> но и настоящего местного<br> производства!</p>
               </li>
             </ul>
           </li>
@@ -155,23 +156,23 @@
             <div class="advantages-textblock">
               <h3 class="advantages-title">Там есть<br> мост дьявола</h3>
               <p class="advantages-number">— №2 —</p>
-              <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              <p class="advantages-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
             </div>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Небольшая<br> площадь</h3>
             <p class="advantages-number">— №3 —</p>
-            <p class="advantages-description">Все достопримечательности находятся очень близко</p>
+            <p class="advantages-description">Все достопримечательности<br> находятся очень близко</p>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Красивая<br> дорога</h3>
             <p class="advantages-number">— №4 —</p>
-            <p class="advantages-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <p class="advantages-description">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</p>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Мало<br> туристов</h3>
             <p class="advantages-number">— №5 —</p>
-            <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
+            <p class="advantages-description">Большинство едет в Гранд Каньон<br> и толпится там</p>
           </li>
         </ol>
       </section>
@@ -182,8 +183,6 @@
           гостиниц в Седоне</p>
         <a class="button button-booking button-brown" href="#">Поиск гостиницы в Седоне</a>
       </section>
-    </main>
-    <footer class="page-footer">
       <section class="footer-subscribe footer-subscribe-main">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
@@ -194,6 +193,8 @@
           <button class="button subscribe-button button-blue" type="submit">Подписаться</button>
         </form>
       </section>
+    </main>
+    <footer class="page-footer">
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
@@ -247,7 +248,8 @@
       </div>
     </footer>
   </div>
-  <!-- <div class="modal-container">
+  <div class="modal-container">
+    <!-- показывает класс .modal-opened -->
     <div class="modal modal-booking">
       <button class="modal-close-button">
         <span class="visually-hidden">Закрыть</span>
@@ -281,10 +283,10 @@
                 <path d="M0 0v1h13V0H0Z" fill="currentColor" />
               </svg>
             </button>
-            <input class="field-people field-adults" type="number" id="quantity-adults" name="quantity-adults"
-              value="2">
+            <input class="field-people" type="number" id="quantity-adults" name="quantity-adults" value="2">
             <button class="plus-people" type="button">
-              <svg class="quantity-icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none">
+              <svg class="quantity-icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13"
+                fill="none">
                 <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
               </svg>
             </button>
@@ -295,20 +297,24 @@
             <label for="quantity-kids">Дети:</label>
             <div class="tooltip-container">
               <button class="info-kids" type="button">
-                <span class="visually-hidden">Посмотреть дополнительную информацию</span></button>
+                <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+              </button>
               <p class="info-kids-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет.
                 Дети до 6 лет размещаются бесплатно.</p>
+              <!-- для показа используется .kids-info-opened -->
             </div>
           </div>
           <div class="quantity-people-kids">
             <button class="minus-people" type="button">
-              <svg class="quantity-icon" aria-hidden="true" focusable="false" width="13" height="1" viewBox="0 0 13 1" fill="none">
+              <svg class="quantity-icon" aria-hidden="true" focusable="false" width="13" height="1" viewBox="0 0 13 1"
+                fill="none">
                 <path d="M0 0v1h13V0H0Z" fill="#000" />
               </svg>
             </button>
             <input class="field-people" type="number" id="quantity-kids" name="quantity-hildren" value="1">
             <button class="plus-people" type="button">
-              <svg class="quantity-icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="none">
+              <svg class="quantity-icon" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13"
+                fill="none">
                 <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
               </svg>
             </button>
@@ -317,7 +323,7 @@
         <button class="button blue-button search-button" type="submit">Найти</button>
       </form>
     </div>
-  </div> -->
+  </div>
 </body>
 
 </html>
