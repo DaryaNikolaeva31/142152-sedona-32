@@ -1026,7 +1026,7 @@ body {
 
 .range-text {
   position: absolute;
-  left: 110px;
+  left: 112px;
   top: 12px;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -1141,7 +1141,7 @@ body {
   appearance: none;
   background-image: url("../img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: 87% 21px;
+  background-position: 80% 19px;
 }
 
 .select-control:hover {
@@ -1214,14 +1214,14 @@ body {
 .product-card {
   display: grid;
   grid-template-columns: 217px 157px 162px 520px;
-  grid-template-rows: 42px 41px 41px;
+  grid-template-rows: min-content 1fr min-content;
   grid-template-areas:
     "product-image product-title product-title rating-stars"
     "product-image miniblock-left miniblock-right rating-stars"
     "product-image button-showmore button rating-text";
-  padding-top: 32px;
-  padding-bottom: 20px;
-  row-gap: 5px;
+  padding-top: 27px;
+  padding-bottom: 30px;
+  row-gap: 10px;
   border-top: 1px solid #e6e6e6;
   margin-top: -6px;
 }
@@ -1291,8 +1291,6 @@ body {
   font-size: 16px;
   line-height: 20px;
   margin-right: 1px;
-  margin-bottom: 8px;
-  margin-top: -5px;
 }
 
 .product-card-button-favor:hover {
@@ -1311,8 +1309,6 @@ body {
 .button-showmore {
   grid-area: button-showmore;
   margin-right: 7px;
-  margin-bottom: 8px;
-  margin-top: -5px;
 }
 
 .rating-stars {
@@ -1334,13 +1330,13 @@ body {
 .rating-three-star {
   width: 75px;
   margin-right: 44px;
-  margin-top: 7px;
+  margin-top: 6px;
 }
 
 .rating-two-star {
   width: 49px;
-  margin-right: 56px;
-  margin-top: 7px;
+  margin-right: 58px;
+  margin-top: 4px;
 }
 
 .rating-text {
@@ -1363,7 +1359,7 @@ body {
   min-height: 37px;
   padding-left: 33px;
   padding-right: 33px;
-  padding-top: 5px;
+  padding-top: 9px;
   padding-bottom: 10px;
   margin: 0;
 }
@@ -1371,13 +1367,12 @@ body {
 .miniblock-left {
   grid-area: miniblock-left;
   margin: 0;
-  margin-top: -13px;
+  margin-top: -2px;
 }
 
 .miniblock-right {
   grid-area: miniblock-right;
   margin: 0;
-  margin-top: -13px;
 }
 
 .miniblock-left.miniblock-right {
@@ -1414,8 +1409,6 @@ body {
   background-color: #7db54f;
   font-size: 16px;
   line-height: 21px;
-  margin-bottom: 8px;
-  margin-top: -5px;
 }
 
 .button-success:hover {
@@ -1441,7 +1434,7 @@ body {
   background-color: #83b3d3;
   margin: 0;
   margin-left: 216px;
-  margin-top: 0px;
+  margin-top: -3px;
   padding-left: 240px;
   padding-right: 240px;
   margin-bottom: 30px;
