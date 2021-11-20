@@ -576,11 +576,10 @@ body {
   color: #000000;
   width: 100%;
   margin: 0;
-  margin-bottom: 39px;
-  padding-bottom: 95px;
+  padding-bottom: 136px;
   padding-right: 200px;
   padding-left: 200px;
-  padding-top: 89px;
+  padding-top: 86px;
   text-align: center;
 }
 
@@ -590,6 +589,10 @@ body {
   background-color: #83b3d3;
   color: #f2f2f2;
   margin-bottom: -1px;
+  padding-bottom: 94px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 90px;
 }
 
 .footer-social {
@@ -1026,7 +1029,7 @@ body {
 
 .range-text {
   position: absolute;
-  left: 112px;
+  left: 110px;
   top: 12px;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -1124,13 +1127,13 @@ body {
   padding-top: 3px;
   padding-bottom: 5px;
   padding-left: 17px;
-  padding-right: 105px;
+  padding-right: 101px;
   margin: 0;
   margin-left: 13px;
   appearance: none;
   background-image: url("../img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: 92% 20px;
+  background-position: 93% 20px;
   cursor: pointer;
 }
 
@@ -1141,7 +1144,7 @@ body {
   appearance: none;
   background-image: url("../img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: 80% 19px;
+  background-position: 87% 19px;
 }
 
 .select-control:hover {
@@ -1208,7 +1211,7 @@ body {
   padding-right: 72px;
   padding-left: 72px;
   padding-top: 0;
-  padding-bottom: 30px;
+  padding-bottom: 34px;
 }
 
 .product-card {
@@ -1220,10 +1223,9 @@ body {
     "product-image miniblock-left miniblock-right rating-stars"
     "product-image button-showmore button rating-text";
   padding-top: 27px;
-  padding-bottom: 30px;
-  row-gap: 10px;
+  padding-bottom: 28px;
+  row-gap: 4px;
   border-top: 1px solid #e6e6e6;
-  margin-top: -6px;
 }
 
 .product-card:last-child {
@@ -1232,6 +1234,7 @@ body {
 
 .product-card-image {
   margin-top: 5px;
+  display: block;
 }
 
 .product-card-image-link {
@@ -1330,13 +1333,13 @@ body {
 .rating-three-star {
   width: 75px;
   margin-right: 44px;
-  margin-top: 6px;
+  margin-top: 7px;
 }
 
 .rating-two-star {
   width: 49px;
-  margin-right: 58px;
-  margin-top: 4px;
+  margin-right: 56px;
+  margin-top: 7px;
 }
 
 .rating-text {
@@ -1373,6 +1376,7 @@ body {
 .miniblock-right {
   grid-area: miniblock-right;
   margin: 0;
+  margin-top: -2px;
 }
 
 .miniblock-left.miniblock-right {
